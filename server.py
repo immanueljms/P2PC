@@ -150,6 +150,8 @@ def build_ffmpeg_command(config):
         "info",
         "-f",
         "gdigrab",
+        "-probesize", "1M",
+        "-thread_queue_size", "512",
         "-framerate",
         str(config["framerate"]),
         "-offset_x",

@@ -2,12 +2,12 @@
   "server_ip": "192.168.1.7",
   "video_port": 5000,
   "input_port": 5001,
-  "framerate": 60,
+  "framerate": 30,
   "capture_offset_x": 0,
   "capture_offset_y": 0,
   "capture_width": 1920,
   "capture_height": 1080,
-  "video_bitrate": "6M",
+  "video_bitrate": "3M",
   "ffmpeg_path": "ffmpeg",
   "ffplay_path": "ffplay"
 }
