@@ -178,11 +178,11 @@ def build_ffmpeg_command(config):
         "-maxrate",
         str(config["video_bitrate"]),
         "-bufsize",
-        str(config["video_bitrate"]),
+        "500k",
         "-g",
-        "30",
+        "15",
         "-keyint_min",
-        "30",
+        "15",
         "-bf",
         "0",
         "-refs",
@@ -197,7 +197,6 @@ def build_ffmpeg_command(config):
         "h264",
         output_url,
     ]
-
 
 def main():
     if sys.platform != "win32":

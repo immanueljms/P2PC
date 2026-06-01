@@ -195,7 +195,7 @@ def build_ffplay_command(config):
         "low_delay",
         "-framedrop",
         "-probesize",
-        "32",
+        "1024",
         "-analyzeduration",
         "0",
         "-sync",
