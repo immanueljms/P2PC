@@ -5,8 +5,8 @@
   "framerate": 60,
   "capture_offset_x": 0,
   "capture_offset_y": 0,
-  "capture_width": 1280,
-  "capture_height": 720,
+  "capture_width": 1920,
+  "capture_height": 1080,
   "video_bitrate": "6M",
   "ffmpeg_path": "ffmpeg",
   "ffplay_path": "ffplay"
